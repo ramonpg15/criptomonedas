@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+p {
+  padding: 8px;
+  margin: 0;
+}
+/* .row{
+   
+} */
+/* .card {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2;
+} */
+.badge{
+    padding: 8px;
+    color: black;
+}
+.text-muted{
+    color: black;
+}
+body{
+    background-color: #c3c6d8;
+    
+    background-image: radial-gradient(#806f6e 1.4500000000000002px, #c3c6d8 1.4500000000000002px);
+    background-size: 29px 29px;
+}

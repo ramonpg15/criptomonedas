@@ -1,0 +1,20 @@
+<input type="text" class="form-control mt-3" placeholder="Buscar..." [(ngModel)]="buscando" (keyup)="buscar()">
+<div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+    <div class="col " *ngFor="let cripto of arregloFiltrado">
+      <div class="card h-100  bg-secondary text-white">
+        <img [src]="cripto.image" class="card-img-top img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"> {{cripto.name}} </h5>
+          <p class="card-text text-center">
+
+              <span class="badge bg-info mb-2">{{cripto.symbol}}</span>
+              <span class="badge bg-danger"> Maximo Historico: {{cripto.ath|currency}} </span>
+          </p>
+        </div>
+        <div class="card-footer">
+          <span>Precio actual {{cripto.current_price|currency}} </span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
