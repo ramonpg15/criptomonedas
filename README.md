@@ -1,5 +1,8 @@
 # Criptomonedas
-
+# Para poder ejecutar el proyecto instalar los node_modules
+# Con el comando npm i
+# Listado de las principales criptomonedas y un convertidor de precios
+en texto duro, son para pruebas y como ejercico practico
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server
